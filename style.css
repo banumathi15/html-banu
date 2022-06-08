@@ -1,0 +1,17 @@
+h3{
+    color:blue;
+    background-color: red;
+}
+.main{
+    border:5px solid grey;
+    width:500px;
+    height:500px;
+}
+.box{
+    width:100px;
+    height:100px;
+}
+
+/**
+comment line in css
+**/

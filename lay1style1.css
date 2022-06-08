@@ -1,0 +1,43 @@
+.clearboth{
+    clear:both;
+}
+.weblayout >div{
+    padding: 20px 0px;
+    margin: 5px 0px;
+    text-align:center;
+}
+
+
+.navbar{
+    background-color: green;
+    
+}
+.menu{
+    background-color: red;
+    float:left;
+    width:33.33%;
+    height:200px;
+    
+}
+h2{
+    text-align:center;
+}
+.content{
+    background-color: blue;
+    float:left;
+    width:33.33%;
+    height:200px;
+    
+}
+.sidebar{
+    background-color: pink;
+    float:left;
+    width:33.33%;
+    height:200px;
+    
+}
+.footer{
+    background-color: greenyellow;
+    clear:both;
+    
+}

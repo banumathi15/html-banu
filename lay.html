@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>layout</title>
+    <style>
+    .head1{
+        color:red;
+        font-size:40px;
+        font-weight: bold;
+        text-align: center;
+        padding: 10px;
+      
+        border:10px solid black;
+        margin:10px;
+
+    }
+    .head2{
+        color:blue;
+        font-size:40px;
+        font-weight: bold;
+        text-align: center;
+        border:10px solid red;
+
+    }
+    .menu { 
+            position: sticky;
+            top: 0;
+            background-color: #009900;
+            padding:10px 0px 10px 0px;
+            color:white;
+            margin: 0 auto;
+            overflow: hidden;
+        }
+        .menu-log {
+            right: auto;
+            float: right;
+        }
+        .body_sec {
+            margin-left:20px;
+            border:10px solid green;
+
+        }
+</style>
+</head>
+<body>
+    <header>
+       <div class="head1">header page</div>
+       <div class="head2">top of the page</div>
+    </header>
+    <div class="menu">
+        <a href="#home">HOME</a>
+        <a href="#news">NEWS</a>
+        <a href="#notification">NOTIFICATIONS</a>
+        <div class="menu-log">
+            <a href="#login">LOGIN</a>
+        </div>
+    </div>
+
+    <main class = "body_sec">
+        <section id="Content">
+            <h3>Content section</h3>
+        </section>
+      </main>
+      <footer>Footer Section</footer>
+</body>
+</html>

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>layout2</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        body {
+            font-family: Arial;
+        }
+
+
+        header {
+            background-color: green;
+            padding: 10px;
+            text-align: center;
+            color: white;
+        }
+        nav ul{
+            list-style-type: none;
+            padding:0;
+        }
+        nav {
+            background: blue;
+            float: left;
+            width: 30%;
+            height: 300px; 
+            padding: 20px,0px;
+        }
+
+        article {
+            background-color:blueviolet;
+            float: left;
+            width: 70%;
+            height: 300px;
+            padding: 20px,0px; 
+        }
+        section::after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+footer {
+    background-color: grey;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    margin:5px,0;
+    clear:both;
+}
+
+    </style>
+</head>
+<body>
+    <header>
+        Cities
+    </header>
+    <section>
+        <nav>
+            <ul>
+                <li>German</li>
+                <li>London</li>
+                <li>Tokiyo</li>
+                <li>Paris</li>
+                <li>Newyork</li>
+            </ul>
+        </nav>
+        <article>
+            <h1>London</h1>
+            <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis deserunt quam laborum! Velit voluptate quidem hic magni, eum itaque ipsa alias suscipit numquam distinctio aut at ut et laborum, doloribus culpa aspernatur fugiat nihil dolor esse vitae eos. Iste amet hic reprehenderit a, aliquam nobis porro eaque illo accusantium in ipsam aliquid distinctio earum voluptas ducimus nemo accusamus quasi, modi, debitis perferendis fuga. Ad quibusdam modi labore sapiente laborum veniam corporis. Omnis, amet harum. Tempore quaerat modi natus quia eaque nesciunt a quasi totam similique aperiam esse cum, iusto eos quisquam sed dicta odio nostrum tenetur. Eveniet voluptatem in ut.
+            </p>
+        </article>
+    </section>
+    <footer>
+        Footer
+    </footer>
+</body>
+</html>
